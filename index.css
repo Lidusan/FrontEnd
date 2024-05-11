@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: young-serif;
+    src: url("C:\Users\User\Downloads\recipe-page-main\young-serif\YoungSerif-Regular.ttf");
+}
+.main{
+   width: 100%;
+   height: 100%;
+   padding: 10% 0%;
+   background-color: hsl(30, 54%, 90%);
+}
+.small-container{
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    padding: 5%;
+    border-radius: 10px;
+}
+p,
+ul,
+ol,
+table{
+    font-family: 'outfit','Courier New', Courier, monospace;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    font-size: 12px;
+    padding-bottom: 25px;
+    line-height: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 25px;
+}
+h2,
+h3,
+h4{
+    font-family: 'young-serif', sans-serif;
+}
+h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+   
+}
+p{
+    line-height: 15px;
+}
+
+h3{
+    font-size: 25px;
+    color:  hsl(14, 45%, 36%);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+h4{
+    color: hsl(332, 51%, 32%) ;
+    font-size : 20px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    
+}
+ul,
+ol{
+    margin-left: 20px;
+   
+}
+
+.new-small{ 
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 5px;
+    padding: 10px 0px 0px 20px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    line-height: 35px;
+}
+.preparation-things{
+    width: 60%;
+}
+td{
+    border-bottom: 0.2px solid hsl(30, 18%, 87%);   
+    border-spacing: 0px;
+    
+}
+.noline{
+    border-bottom: none;
+}
+.bigL{
+    font-weight: 900;
+}
+.change{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700 ;
+}
+@media (375px <=width <= 1440px) {
+    .small-container{
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        height: 100%;
+        background-color:  hsl(0, 0%, 100%);
+    }
+    }
